@@ -645,6 +645,7 @@ class PrintUtils {
     printCurrentPage() {
         window.print();
     }
+    
 
     /**
      * Save as PDF (using browser's print to PDF)
