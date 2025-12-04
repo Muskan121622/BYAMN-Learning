@@ -873,6 +873,8 @@
             document.getElementById('chart-type-line').addEventListener('click', () => {
                 renderLineChart(data);
             });
+            
+            container.appendChild(svg);
         }
         
         function renderBarChart(data) {
